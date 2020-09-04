@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
 s.name         = "OXSaiSDK"
 s.version      = "2.3.3"
-s.summary      = "OXSaiSDK"
+s.summary      = "一键登录"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -61,8 +61,7 @@ s.author             = { "my" => "wlwx" }
 #  the deployment target. You can optionally include the target after the platform.
 #
 
-# s.platform     = :ios
-# s.platform     = :ios, "5.0"
+s.platform     = :ios,'8.0'
 
 #  When using multiple platforms
 # s.ios.deployment_target = "5.0"
@@ -88,7 +87,7 @@ s.source       = { :git => "https://github.com/oxsdk/my.git", :tag => "#{s.versi
 #  Not including the public_header_files will make all headers public.
 #
 
-s.vendored_frameworks =  'framework/*.{framework}'
+s.vendored_frameworks = 'framework/OXSaiSDK.framework'
 s.resource = 'framework/*.{bundle}'
 
 
@@ -115,7 +114,7 @@ s.resource = 'framework/*.{bundle}'
 # s.framework  = "SomeFramework"
 # s.frameworks = "SomeFramework", "AnotherFramework"
 
-# s.library   = "iconv"
+s.library   = "c++.1"
 # s.libraries = "iconv", "xml2"
 
 
