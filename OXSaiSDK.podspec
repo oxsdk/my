@@ -133,7 +133,7 @@ Pod::Spec.new do |s|
   # s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 
     #SDK头文件路径
-    s.public_header_files = 'framework/OXSaiSDK.framework/Headers/OXSaiSDK.h'
+   # s.public_header_files = 'framework/OXSaiSDK.framework/Headers/OXSaiSDK.h'
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
     s.pod_target_xcconfig = {
