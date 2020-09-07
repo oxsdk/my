@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "OXSaiSDK"
+  s.name         = "OXSDK"
   s.version      = "2.3.3"
   s.summary      = "秒验 iOS SDK"
 
