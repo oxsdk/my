@@ -16,7 +16,7 @@ s.summary  = '一键登录'
 s.homepage   = 'http://my.wlwx.com/site/index.html'
 
 #项目的地址 （注意这里的tag位置，可以自己写也可以直接用s.version，但是与s.version一定要统一）
-s.source   = { :git => 'https://github.com/oxsdk/my.git', :tag => "#{spec.version}" }
+s.source   = { :git => 'https://github.com/oxsdk/my.git', :tag => "#{s.version}" }
 
 #支持arc
 s.requires_arc = true
